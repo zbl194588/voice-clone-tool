@@ -1,0 +1,20 @@
+# 音频素材不入库（体积大且有隐私）
+assets/
+*.wav
+*.mp3
+*.flac
+*.m4a
+
+# 模型文件不入库
+*.pth
+*.ckpt
+GPT_SoVITS_weights/
+
+# Python
+__pycache__/
+*.pyc
+venv/
+
+# 系统文件
+.DS_Store
+Thumbs.db
